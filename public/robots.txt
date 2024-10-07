@@ -1,7 +1,0 @@
-User-agent: *
-Allow: /  # Allow crawling of all pages
-
-# Optional: Disallow specific directories (if needed)
-Disallow: /admin/  # Example: Disallow crawling of the admin directory  
-
-Sitemap: https://www.craftlyweb.com/sitemap.xml

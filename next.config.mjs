@@ -1,28 +1,27 @@
-import {withSentryConfig} from '@sentry/nextjs';
+import { withSentryConfig } from '@sentry/nextjs';
+import { withSitemap } from 'next-sitemap';
+
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
-
-export default withSentryConfig(nextConfig, {
-
-silent: true,
-org: "javascript-mastery",
-project: "javascript-nextjs",
-}, {
-
-widenClientFileUpload: true,
-
-    productionBrowserSourceMaps: false, // Disable source maps in development
-    optimizeFonts: false, // Disable font optimization
-    minify: false, // Disable minification
-transpileClientSDK: true,
-
-hideSourceMaps: true,
-
+const nextConfig = {
   siteUrl: 'https://www.craftlyweb.com',
-  generateRobotsTxt: true,
+  generateRobotsTxt: true, // Generates robots.txt file
+};
 
-// Automatically tree-shake Sentry logger statements to reduce bundle size
-disableLogger: true,
+// Combine the sitemap and Sentry configurations
+const combinedConfig = withSitemap(nextConfig);
 
-automaticVercelMonitors: true,
+export default withSentryConfig(combinedConfig, {
+  silent: true,
+  org: "javascript-mastery",
+  project: "javascript-nextjs",
+}, {
+  widenClientFileUpload: true,
+  productionBrowserSourceMaps: false, // Disable source maps in development
+  optimizeFonts: false, // Disable font optimization
+  minify: false, // Disable minification
+  transpileClientSDK: true,
+  hideSourceMaps: true,
+  automaticVercelMonitors: true,
+  // Automatically tree-shake Sentry logger statements to reduce bundle size
+  disableLogger: true,
 });
