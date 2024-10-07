@@ -18,6 +18,9 @@ transpileClientSDK: true,
 
 hideSourceMaps: true,
 
+  siteUrl: 'https://www.craftlyweb.com',
+  generateRobotsTxt: true,
+
 // Automatically tree-shake Sentry logger statements to reduce bundle size
 disableLogger: true,
 

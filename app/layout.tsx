@@ -69,6 +69,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <head>
         <link rel="icon" href="/CraftlyWeblogo.png" sizes="any" />
+<link rel="canonical" href="https://www.craftlyweb.com/" />
 
       </head>
       <body className={inter.className}>
