@@ -69,12 +69,16 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <head>
         <meta name="google-site-verification" content="Z2mmnv2SNW6MypIwJEXj3lyJtpi-wHM4GDRw79EmZGE" />
+      
+
         <link rel="icon" href="/CraftlyWeblogo.png" sizes="any" />
          <link rel="manifest" href="/manifest.json" />
 <link rel="canonical" href="https://www.craftlyweb.com/" />
 
       </head>
       <body className={inter.className}>
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KRS52T6B"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"
