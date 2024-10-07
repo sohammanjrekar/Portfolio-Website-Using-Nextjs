@@ -77,8 +77,7 @@ export default function RootLayout({
 
       </head>
       <body className={inter.className}>
-        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KRS52T6B"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"
