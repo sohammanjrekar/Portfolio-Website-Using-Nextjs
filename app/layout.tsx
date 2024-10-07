@@ -68,6 +68,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
+        <meta name="google-site-verification" content="Z2mmnv2SNW6MypIwJEXj3lyJtpi-wHM4GDRw79EmZGE" />
         <link rel="icon" href="/CraftlyWeblogo.png" sizes="any" />
          <link rel="manifest" href="/manifest.json" />
 <link rel="canonical" href="https://www.craftlyweb.com/" />
