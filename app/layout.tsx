@@ -6,9 +6,58 @@ import { ThemeProvider } from "./provider";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata: Metadata = {
-  title: "CraftlyWeb Portfolio",
-  description: "Modern & Minimal CraftlyWeb Portfolio",
+export const metadata = {
+  title: "CraftlyWeb – Innovating Design, Empowering Brands",
+  description: "Creative solutions for digital success.",
+  keywords: "CraftlyWeb, web design, branding, digital solutions, app development, UI design",
+  applicationName: "CraftlyWeb",
+  author: "Soham Manrjekar, Mihir Narvekar",
+  viewport: "width=device-width, initial-scale=1.0",
+  robots: "index, follow",
+  language: "en-US",
+  themeColor: "#000000",
+  colorScheme: "light dark",
+  
+  // Open Graph for social sharing
+  openGraph: {
+    title: "CraftlyWeb – Innovating Design, Empowering Brands",
+    description: "Creative solutions for digital success.",
+    url: "https://www.craftlyweb.com",
+    type: "website",
+    locale: "en_US",
+    siteName: "CraftlyWeb",
+    images: [
+      {
+        url: "https://www.craftlyweb.com/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "CraftlyWeb Portfolio",
+      },
+    ],
+  },
+  
+  // Twitter Card
+  twitter: {
+    card: "summary_large_image",
+    site: "@craftlyweb",
+    creator: "@sohammanrjekar",
+    title: "CraftlyWeb – Innovating Design, Empowering Brands",
+    description: "Creative solutions for digital success.",
+    images: [
+      {
+        url: "https://www.craftlyweb.com/twitter-image.jpg",
+        alt: "CraftlyWeb Portfolio",
+      },
+    ],
+  },
+  
+  // Favicon and icons
+  icons: {
+    icon: "/favicon.ico",
+    appleTouchIcon: "/apple-touch-icon.png",
+    shortcutIcon: "/favicon-32x32.png",
+    manifest: "/site.webmanifest",
+  },
 };
 
 export default function RootLayout({
@@ -20,6 +69,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <head>
         <link rel="icon" href="/CraftlyWeblogo.png" sizes="any" />
+
       </head>
       <body className={inter.className}>
         <ThemeProvider
