@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap-image/1.1"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap-image/1.1 http://www.sitemaps.org/schemas/sitemap-image/1.1/sitemap-image.xsd">
+    
+    <url>
+        <loc>https://www.craftlyweb.com/</loc>
+        <lastmod>2024-10-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+        <title>CraftlyWeb - Your Premier Web Design Partner</title>
+        <description>Transforming ideas into stunning websites that resonate with your audience.</description>
+    </url>
+    
+    <url>
+        <loc>https://www.craftlyweb.com/services</loc>
+        <lastmod>2024-10-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <title>Our Services - CraftlyWeb</title>
+        <description>Explore our comprehensive web design, development, and marketing services.</description>
+    </url>
+    
+    <url>
+        <loc>https://www.craftlyweb.com/about</loc>
+        <lastmod>2024-10-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <title>About Us - CraftlyWeb</title>
+        <description>Learn more about our journey, mission, and values at CraftlyWeb.</description>
+    </url>
+    
+    <url>
+        <loc>https://www.craftlyweb.com/contact</loc>
+        <lastmod>2024-10-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+        <title>Contact Us - CraftlyWeb</title>
+        <description>Get in touch with our team for your web development needs.</description>
+    </url>
+    
+    <url>
+        <loc>https://www.craftlyweb.com/portfolio</loc>
+        <lastmod>2024-10-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <title>Portfolio - CraftlyWeb</title>
+        <description>Browse our diverse portfolio showcasing our web design and development projects.</description>
+    </url>
+    
+    <url>
+        <loc>https://www.craftlyweb.com/blog</loc>
+        <lastmod>2024-10-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+        <title>Blog - CraftlyWeb</title>
+        <description>Stay updated with the latest trends in web design and development.</description>
+    </url>
+
+</urlset>
