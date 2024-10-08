@@ -26,7 +26,7 @@ export default function RootLayout({
         <link rel="icon" href="/CraftlyWeblogo.png" sizes="any" />
         {/* <link rel="manifest" href="/manifest.json" /> */}
         <link rel="canonical" href="https://www.craftlyweb.com/" />
-        <title>CraftlyWeb – Innovating Design, Empowering Brands</title>
+        <title>CraftlyWeb</title>
       </head>
       <body className={inter.className}>
         <ThemeProvider
