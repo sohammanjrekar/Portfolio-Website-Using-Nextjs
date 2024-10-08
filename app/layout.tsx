@@ -18,7 +18,7 @@ export default function RootLayout({
         <meta name="application-name" content="CraftlyWeb" />
         <meta name="author" content="Soham Manrjekar, Mihir Narvekar" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="robots" content="index, follow" />
+        <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
         <meta http-equiv="Content-Language" content="en-US" />
         <meta name="theme-color" content="#000000" />
         <meta name="color-scheme" content="light dark" />
